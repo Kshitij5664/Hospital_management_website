@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<head>
+    <title> Emergency room Service</title>
+    </head>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-size: large;
+            font-weight: 900;
+            color: brown;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #047baa;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            font-weight: bolder;
+            margin-left: 15%;
+            margin-right: 15%;
+           
+        }
+        *{
+    margin: 0;
+    padding: 0;
+}
+        .topnav {
+  z-index: 1;
+  padding-top: 30px;
+  /* overflow: hidden; */
+  background-color:white;
+  width: 100%;
+  position: fixed;
+}
+
+#logo{
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  right: 180px;
+}
+
+#logoname{
+  position: fixed;
+  top: 25px;
+  right: 100px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0%;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #047baa;
+  color: white;
+  
+}
+button {
+  color:#047baa;
+  padding: 8px 12px;
+  text-align: center;
+  text-emphasis-style: bold;
+  margin: 4px 2px;
+  border: 2px solid aliceblue;
+}
+button:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+        .form {
+            background-color: lightblue;
+            padding: 40px;
+            border: 6px solid #047baa;
+            border-radius: 20px;
+            margin-right: 380px;
+            margin-left: 380px;
+            margin-top: 0%;
+            opacity: 0.8;
+            margin-bottom: 0%;
+        }
+        .blackbox{
+  background-color: #000000;
+  width: 100%;
+  color: aliceblue;
+  padding: 10px;
+}
+.login{
+  background-color: lightblue;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+    </style>
+    <div class="topnav">
+      <a class="active" href="/Hospital_Management_Website/final project.html">Home</a>
+      <a href="/Hospital_Management_Website/sidebar.html">Services</a>
+      <a href="/Hospital_Management_Website/test.html">About us</a>
+      <a href="/Hospital_Management_Website/1Login.html">Login</a>
+      <span id="lo">
+        <img id="logo" src="/Hospital_Management_Website/plus logo.jpg" alt="">
+        <span id="logoname">UrDOC</span>
+      </span>
+    </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+<body>
+   
+    <br><h1> Registration for Emergency Service </h1><br>
+    <div class="img">
+        <div class="form">
+            <form name="myForm" method="post">
+                <label for="name">Patient Full Name:</label>
+                <input type="text" id="Name" name="name" style="width: 200px; height: 30px;" required>
+                <br>
+                <br>
+                <label for="sex"> Sex:</label>
+                <input type="radio" id="gender" name="gender" value="Male" />Male
+                <input type="radio" id="gender" name="gender" value="Female" />Female
+                <br>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" id="Age" name="age" size="10" style="width: 200px; height:30px;" required>
+                    <br>
+                    <br>
+                    <label for="contact">Contact Number</label>
+                    <input type="number" id="Contact" name="contact" style="width: 200px; height:30px;" required>
+                    <br>
+                    <br>
+                    <label for="address">Address:</label>
+                    <input type="text" id="Address" name="address" style="width: 200px; height:30px;" required>
+                    <br>
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="text" id="Email" name="email" style="width: 200px; height:30px;" required>
+                    <br>
+                    <br>
+                    <label for="pincode">Pincode: </label>
+                    <input type="number" id="Pincode" name="pincode" style="width: 200px; height:30px;" required>
+                    <br>
+                    <br>
+                    <label for="Appointment"> Which Doctor that you want to Appointment:</label>
+                    <br>
+                    <select id="Appointment" name="Appointment" style="width: 200px; height:30px;">
+                        <option value="Doctor">Surgeon</option>
+                        <option value="Doctor">Psychologist</option>
+                        <option value="Doctor">Pharmacist</option>
+                        <option value="Doctor">Dentist</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button class="button">Submit</button>
+                </form>
+        </div>
+</body>
+<br>
+<div class="login">
+  <h2>Login For Registration</h2>
+  <a href="/Hospital_Management_Website/1Login.html"><button class="button5">Login</button></a>
+</div>
+  <div class="blackbox">
+    <br>
+    <h4 style="text-align: center;">Follow For More</h4><br>
+
+    <p> Privacy  |  Disclaimer  |  Contact  |  Sitemap  </p><br>
+    <p>@2023 UrDOC Hospital Enterprise Ltd. All Right Reserved.
+    </p><br>
+  </div>
+</html>

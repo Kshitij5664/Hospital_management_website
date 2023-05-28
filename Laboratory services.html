@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory services.</title>
+
+    
+
+    <style>
+        h1 {
+            background-color: #047baa;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            font-weight: bolder;
+            margin-left: 15%;
+            margin-right: 15%;}
+        body {
+            background-color: rgb(250, 250, 250);
+            font-size: large;
+            font-weight: 900;
+            text-align: center;
+        }
+        
+        *{
+    margin: 0;
+    padding: 0;
+}
+        .topnav {
+  z-index: 1;
+  padding-top: 30px;
+  /* overflow: hidden; */
+  background-color:white;
+  width: 100%;
+  position: fixed;
+}
+
+#logo{
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  right: 180px;
+}
+
+#logoname{
+  position: fixed;
+  top: 25px;
+  right: 100px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0%;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #047baa;
+  color: white;
+  
+}
+button {
+  color:#047baa;
+  padding: 8px 12px;
+  text-align: center;
+  text-emphasis-style: bold;
+  margin: 4px 2px;
+  border: 2px solid aliceblue;
+}
+button:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+        .box1{
+            color: brown;
+            border: 6px solid #047baa;
+            padding: 30px;
+            background-color: lightblue;
+            border-radius: 20px;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        .blackbox{
+  background-color: #000000;
+  width: 100%;
+  color: aliceblue;
+  padding: 10px;
+}
+.login{
+  background-color: lightblue;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+    </style>
+</head>
+<nav>  
+  <div class="topnav">
+    <a class="active" href="/Hospital_Management_Website/final project.html">Home</a>
+    <a href="/Hospital_Management_Website/sidebar.html">Services</a>
+    <a href="/Hospital_Management_Website/test.html">About us</a>
+    <a href="/Hospital_Management_Website/1Login.html">Login</a>
+    <span id="lo">
+      <img id="logo" src="/Hospital_Management_Website/plus logo.jpg" alt="">
+      <span id="logoname">UrDOC</span>
+    </span>
+  </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<center><h1>Registration for Laboratory services</h1></center><br><br>
+<body>
+    <div class="box1">
+    <form name ="myForm" method="post">
+    <label for="name">Patient Full Name:</label>
+    <input type = "text" id = "Name" name="name" style="width: 200px; height: 30px;"required>
+<br>
+<br>
+    <label for = "sex"> Sex:</label>
+    <input type ="radio" id="gender" name="gender" value="Male"/>Male
+    <input type ="radio" id="gender" name="gender" value="Female"/>Female
+<br>
+<br>
+    <label for ="age">Age:</label>
+    <input type ="number" id="Age" name = "age"  size ="10" style="width: 200px; height:30px;"required>
+<br>
+<br>
+    <label for ="contact">Contact Number</label>
+    <input type = "number" id="Contact" name="contact" style="width: 200px; height:30px;" required>
+<br>
+<br>
+    <label for ="address">Address:</label>
+    <input type = "text" id="Address" name="address" style="width: 200px; height:30px;" required>
+<br>
+<br>
+    <label for ="email">Email: </label>
+    <input type ="text" id="Email" name="email" style="width: 200px; height:30px;" required>
+<br>
+<br>
+    <label for ="pincode">Pincode: </label>
+    <input type ="number" id="Pincode" name="pincode" style="width: 200px; height:30px;" required>
+<br>
+<br>
+    <label for ="Appointment"> Which test do you want to need:</label>
+    <select id="Appointment" name="Appointment" style="width: 200px; height:30px;" >
+        <option value="Doctor">Full body Test</option>
+        <option value="Doctor">CT-Sacn</option>
+        <option value="Doctor">Ultrasound</option>
+        <option value="Doctor">Any other</option>
+    </select>
+<br>
+<br>
+    <button class="button">Submit</button>
+</div>
+</form>
+
+<br>
+<div class="login">
+  <h2>Login For Registration</h2>
+  <a href="/Hospital_Management_Website/1Login.html"><button class="button5">Login</button></a>
+</div>
+<div class="blackbox">
+          
+	
+	<br><h4 style="text-align: center;">Follow For More</h4><br>
+
+	<p> Privacy  |  Disclaimer  |  Contact  |  Sitemap  </p><br>
+	<p>@2023 UrDOC Hospital Enterprise Ltd. All Right Reserved.
+	</p><br><br>
+  </div>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Health Care Service</title>
+    <style>
+        h1 {
+            padding: 30px;
+            border: 50px;
+            font-weight: bolder ;
+			text-align: center;
+			background-color: #047baa;
+			color: aliceblue;
+			font-weight: bolder;
+			margin-left: 15%;
+			margin-right: 15%;
+        }
+        body {
+            background-color:rgb(255,255,255);
+            font-size: large;
+            font-weight: 900;
+            color: brown;
+        }
+		*{
+    margin: 0;
+    padding: 0;
+}
+        .topnav {
+  z-index: 1;
+  padding-top: 30px;
+  /* overflow: hidden; */
+  background-color:white;
+  width: 100%;
+  position: fixed;
+}
+
+#logo{
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  right: 180px;
+}
+
+#logoname{
+  position: fixed;
+  top: 25px;
+  right: 100px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0%;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #047baa;
+  color: white;
+  
+}
+button {
+  color:#047baa;
+  padding: 8px 12px;
+  text-align: center;
+  text-emphasis-style: bold;
+  margin: 4px 2px;
+  border: 2px solid aliceblue;
+}
+button:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+		.finalbox{
+			margin-left: 380px;
+			margin-right: 380px;
+		}
+		p{text-align: center;}
+		.box1{
+			text-align: center;
+			margin-left: 35%;
+			margin-right: 35%;
+
+		}
+		.box2{
+			text-align: center;
+			border: 6px solid #047baa;
+			border-radius: 20px;
+			padding: 30px;
+			background-color: lightblue;
+
+		}
+		.box3{
+			text-align: center;
+			border: 6px solid #047baa;
+			border-radius: 20px;
+			padding: 30px;
+			background-color: lightblue;
+
+		}
+		.box4{
+			text-align: center;
+			border: 6px solid #047baa;
+			border-radius: 20px;
+			padding: 30px;
+			background-color: lightblue;
+
+		}
+		.blackbox{
+  background-color: #000000;
+  width: 100%;
+  color: aliceblue;
+  padding: 10px;
+}
+.login{
+  background-color: lightblue;
+  width: 101.5%;
+  color: #000000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+    </style>
+</head>
+<nav>  
+	<div class="topnav">
+		<a class="active" href="/Hospital_Management_Website/final project.html">Home</a>
+		<a href="/Hospital_Management_Website/sidebar.html">Services</a>
+		<a href="/Hospital_Management_Website/test.html">About us</a>
+		<a href="/Hospital_Management_Website/1Login.html">Login</a>
+		<span id="lo">
+		  <img id="logo" src="/Hospital_Management_Website/plus logo.jpg" alt="">
+		  <span id="logoname">UrDOC</span>
+		</span>
+	  </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+	<br>
+<body>
+
+	<h1>Health Care Service Program</h1><br>
+	<p>Welcome to our health care service . Please select a service from the options below:</p>
+	<div class="box1">
+	<ul>
+		<li><a href="#appointment">Make an Appointment</a></li>
+		<li><a href="#testresults">View Test Results</a></li>
+		<li><a href="#healthhistory">View Health History</a></li>
+	</ul>
+</div>
+<br>
+<div class="finalbox">
+	<div class="box2">	
+		<h2 id="appointment">Make an Appointment</h2>
+		<p>To make an appointment, please fill out the form below:</p>
+		<div class="row">
+			<div class="container">
+				<div class="column" style="background-color:rgb(177, 195, 195);"></div>
+				<label for="name">Patient Name:</label>
+				<input type="text" id="name" name="name" style="height:30px; width: 250px;"><br><br>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" style="height:30px; width: 250px;"><br><br>
+				
+				<label for="date">Date:</label>
+		<input type="date" id="date" name="date" style="height:30px; width: 250px;"><br><br>
+		
+		<label for="time">Time:</label>
+		<input type="time" id="time" name="time"><br><br>
+		
+		<input type="submit" value="Submit" style="height:30px; width: 70px;">
+	</div>
+</div>
+</div>
+<br>
+<div class="box3">
+	<h2 id="testresults">View Test Results</h2>
+	<p>To view your test results, please enter your patient ID below:</p>
+	
+	<form>
+		<label for="patientid">Patient ID:</label>
+		<input type="text" id="patientid" name="patientid" style="height:30px; width: 250px;"><br><br>
+		
+		<input type="submit" value="Submit" style="height:30px; width: 70px;">
+	</form>
+</div>
+<br>
+<div class="box4">
+	
+	<h2 id="healthhistory">View Health History</h2>
+	<p>To view your health history, please enter your patient ID below:</p>
+	
+	<form>
+		<label for="patientid">Patient ID:</label>
+		<input type="text" id="patientid" name="patientid" style="height:30px; width: 250px;"><br><br>
+		
+		<input type="submit" value="Submit" style="height:30px; width: 70px;">
+	</form>
+</div>
+</div>
+<br>
+<div class="login">
+	<h2>Login For Registration</h2>
+	<a href="/Hospital_Management_Website/1Login.html"><button class="button5">Login</button></a>
+  </div>
+<div class="blackbox">
+	
+    <br><h4 style="text-align: center;">Follow For More</h4><br>
+
+    <p> Privacy  |  Disclaimer  |  Contact  |  Sitemap  </p><br>
+    <p>@2023 UrDOC Hospital Enterprise Ltd. All Right Reserved.
+    </p><br><br>
+  </div>
+</body>
+</html>
+
